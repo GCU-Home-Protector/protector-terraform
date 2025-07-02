@@ -16,3 +16,4 @@ terraform.tfstate.*
 terraform.rc
 
 var.tf
+ec2.tf
