@@ -11,20 +11,8 @@ terraform.tfstate.*
 *.tfvars
 *.tfvars.json
 
-# Crash log files
-crash.log
-crash.*.log
-
-# Override and plan files (optional)
-override.tf
-override.tf.json
-*_override.tf
-*_override.tf.json
-*.tfplan
-
 # CLI configuration files
 .terraformrc
 terraform.rc
 
-# (선택) var.tf 파일도 제외하려면 아래 추가
 var.tf
