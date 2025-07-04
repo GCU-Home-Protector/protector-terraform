@@ -17,3 +17,8 @@ output "elasticache_endpoint" {
   value       = aws_elasticache_serverless_cache.elasticache.endpoint
   description = "The endpoint of the ElastiCache cluster."
 }
+
+output "k6_endpoint" {
+  value = aws_instance.k6_instance.public_ip
+  description = "Public IP of K6 host"
+}
